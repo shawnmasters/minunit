@@ -17,8 +17,8 @@ I have included a sample test file, but it is very simple to use it.  Create a t
 
 * `#include "minunit.h"`
 * Create two global variables in the scope of the test file (I know, but this case is worth it).
-..* `int tests_run;`
-..* `int subtests_run;`
+  * `int tests_run;`
+  * `int subtests_run;`
 * Create a function to run all of the test sets from.  This can be called from main.
 * Create functions of tests and call them with `mu_run_test` from the function above.
 
