@@ -21,7 +21,10 @@ I have included a sample test file, but it is very simple to use it.  Create a t
   * `int subtests_run;`
 * Create a function to run all of the test sets from.  This can be called from main.
 * Create functions of tests and call them with `mu_run_test` from the function above.
-
+  * Each test uses an `mu_assert`.
+    * The first parameter is the string to return on a failure.
+    * The second parameter is the test that must be true to pass.
+* Compile the test.  You can include this into your build system anyway you want.
 
 
 ## License
